@@ -1,17 +1,23 @@
+* {
+  margin: 0;
+}
+
 h1 {
   font-size: 6em;
   color: #10be00;
   font-family: serif;
   font-style: italic;
   text-align: center;
+  margin: 50px 0;
 }
 
-.inputs{
+.inputs {
   /* para centralizar elementos */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 50px 0;
 }
 
 input {
@@ -23,3 +29,18 @@ input {
   border: rgb(30, 228, 4) solid 2px;
 }
 
+.centerdiv {
+  text-align: center;
+  margin: 30px;
+}
+
+.geral{
+  height: calc(100vh - 211px - 58px);
+}
+
+footer {
+  background-color: green;
+  color: whitesmoke;
+  padding: 20px;
+  margin: 0px;
+}
